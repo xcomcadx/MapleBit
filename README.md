@@ -1,10 +1,14 @@
 MapleBit
 ============
-Welcome to the MapleBit Github page. MapleBit is a Content Management System (CMS). The CMS is currently in Beta testing, and is considered to be both stable and secure. 
+Please note that this is not mine, i just grabbed MapleBit v1.20 and added bcrypt support to ensure there is a stable version where character pictures display properly, and registration/account login works.
 
 Installation
 ============
-To install the CMS, you need to upload the entire .zip to your web server. Then, extract the .zip, and open your browser. Navigate to the location in which you extracted the .zip. You'll be presented with a web based installer. Next, enter in your database connection details, and configure your website. Once you've done this, the installer will lock itself and redirect you to your website.
+To install the CMS, you need to upload the entire .zip to your web server. Then, extract the .zip, and open your browser. Navigate to the location in which you extracted the .zip. You'll be presented with a web based installer. Next, enter in your database connection details, and configure your website. Once you've done this, the installer will lock itself and redirect you to your website. 
+
+**Troubleshooting**
+- If character pictures are not showing up, please ensure that you extract GD v148.7z files in assets/img/GD
+- if the backgrounds dont change, you must edit css files to change the background for each template
 
 Features
 ============
